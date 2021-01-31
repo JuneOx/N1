@@ -18,3 +18,4 @@ sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 git clone https://github.com/tty228/luci-app-serverchan.git packages/lean/
 git clone https://github.com/tuanqing/install-program package/install-program
+git clone https://github.com/tty228/luci-app-serverchan.git
