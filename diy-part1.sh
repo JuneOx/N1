@@ -14,7 +14,7 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-git clone https://github.com/tty228/luci-app-serverchan.git package/lean/
+git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-app-serverchan
 git clone https://github.com/tuanqing/install-program package/install-program
 git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/luci-app-koolproxyR
 sed -i 's/,arm/,aarch64/' package/luci-app-koolproxyR/Makefile
